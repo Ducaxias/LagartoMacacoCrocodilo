@@ -1,0 +1,58 @@
+:root{
+    --corprimaria: #000;
+    --corsegundaria: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.link, .link a{
+    color: var(--corprimaria);
+    font-size: 18px;
+    transition: .3s;
+    letter-spacing: 3px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 53%;
+    width: auto;
+    align-items: center;
+}
+
+ul{
+    gap: 20px;
+    width: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    padding: 5px;
+}
+
+section.Disclaimer{
+    margin-top: 4rem;
+}
